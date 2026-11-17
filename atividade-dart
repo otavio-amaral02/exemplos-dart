@@ -1,0 +1,11 @@
+void main() {
+  int a = 17;
+  int b = 5;
+
+  print(a + b); // adição
+  print(a - b); // subtração
+  print(a * b); // multipicação
+  print(a / b); // divisão com / devolve double
+  print(a ~/ b); // divisão inteira
+  print(a % b); // resto da divisão
+}
