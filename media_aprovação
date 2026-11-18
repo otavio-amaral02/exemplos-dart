@@ -1,0 +1,11 @@
+void main() {
+  double media = 3;
+
+  if (media > 7) {
+    print('aprovado $media');
+  } else if (media > 5) {
+    print('recuperação $media');
+  } else if (media < 5) {
+    print('reprovado $media');
+  }
+}
