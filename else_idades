@@ -1,0 +1,13 @@
+void main() {
+  int numero = 19;
+
+  if (numero < 11) {
+    print('criança');
+  } else if (numero < 18) {
+    print('adolescente');
+  } else if (numero < 59) {
+    print("adulto");
+  } else if (numero > 60) {
+    print("idoso");
+  }
+}
