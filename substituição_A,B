@@ -1,0 +1,12 @@
+void main() {
+  int a = 5;
+  int b = 9;
+  int aux = 0;
+
+  aux = a;
+  a = b;
+  b = aux;
+
+  print('agora o A é: $a');
+  print('agora o B é: $b');
+}
